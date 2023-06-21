@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/assets/logo.jpg" alt="game_logo" class="logo">
+      <h1>Mulheres na Tecnologia</h1>
+    </header>
+  
+    <main>
+  
+      <div id="contador"></div>
+  
+      <div class="question">
+        <h2>Pergunta 1:</h2>
+        <p>Qual foi a primeira Programadora da História?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q1" value="a" onchange="showAlert(this)"> a) Princesa Isabel
+          </label>
+          <label>
+            <input type="radio" name="q1" value="b" onchange="showAlert(this)"> b) Joana d'Arc
+          </label>
+          <label>
+            <input type="radio" name="q1" value="c" onchange="showAlert(this)"> c) Ada Lovelace
+          </label>
+        </div>
+        <div class="feedback" id="q1-feedback"></div>
+      </div>
+  
+      <div class="question">
+        <h2>Pergunta 2:</h2>
+        <p>Qual a porcentagem que as mulheres ocupam no mercado de programação atualmente?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q2" value="a" onchange="showAlert(this)"> a) 20%
+          </label>
+          <label>
+            <input type="radio" name="q2" value="b" onchange="showAlert(this)"> b) 59%
+          </label>
+          <label>
+            <input type="radio" name="q2" value="c" onchange="showAlert(this)"> c) 17%
+          </label>
+        </div>
+        <div class="feedback" id="q2-feedback"></div>
+      </div>
+  
+      <div class="question">
+        <h2>Pergunta 3:</h2>
+        <p>O primeiro BUG foi descoberto por uma mulher, quem foi ela?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q3" value="a" onchange="showAlert(this)"> a) Grace Hopper
+          </label>
+          <label>
+            <input type="radio" name="q3" value="b" onchange="showAlert(this)"> b) Carol Shaw
+          </label>
+          <label>
+            <input type="radio" name="q3" value="c" onchange="showAlert(this)"> c) Hedy Lamarr
+          </label>
+        </div>
+        <div class="feedback" id="q3-feedback"></div>
+      </div>
+  
+      <nav>
+        <button class="submit-btn" onclick="checkAnswers1()">Enviar Respostas</button>
+  
+        <div class="result" id="result"></div>
+  
+        <button class="play-btn" onclick="playAgain()">Jogar novamente</button>
+      </nav>
+  
+    </main>
+  
+    <script src="script.js"></script>
+  
+  </body>
+</html>
