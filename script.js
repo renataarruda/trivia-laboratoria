@@ -50,12 +50,8 @@ function checkAnswers1() {
     document.getElementById("showName").textContent = "Olá, " + name + "!";
   }
   
-  function playAgain() {
-    window.location.href = "boasvindas.html"
-  }
-  
   function question1() {
-      window.location.href = "index.html"
+      window.location.href = "categoria1.html"
   }
   
   function question2() {
@@ -63,7 +59,7 @@ function checkAnswers1() {
   }
   
   function playAgain() {
-      window.location.href = "boasvindas.html"
+      window.location.href = "index.html"
   }
   
   
