@@ -1,6 +1,6 @@
 # Trivia (Quiz game)
 
-Projeto de quiz simples, desenvolvido do zero em HTML5, CSS3 e Javascript. 
+Projeto de quiz simples, desenvolvido do zero em HTML5, CSS3 e Javascript vanilla durante a semana de pré-admissão do bootcamp Laboratória. Co-autora: Bianca Bezerra.
 
 ## Protótipo
 
