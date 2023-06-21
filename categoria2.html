@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/assets/logo.jpg" alt="Logo do jogo" class="logo">
+      <h1>Bootcamp Laboratória</h1>
+    </header>
+  
+    <main>
+      <div id="contador"></div>
+  
+      <div class="question">
+        <h2>Pergunta 1:</h2>
+        <p>Qual a taxa de empregabilidade das graduadas da Laboratória?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q12" value="a" onchange="showAlert(this)"> a) +99%
+          </label>
+          <label>
+            <input type="radio" name="q12" value="b" onchange="showAlert(this)"> b) +82%
+          </label>
+          <label>
+            <input type="radio" name="q12" value="c" onchange="showAlert(this)"> c) 0%
+          </label>
+        </div>
+        <div class="feedback" id="q12-feedback"></div>
+      </div>
+  
+      <div class="question">
+        <h2>Pergunta 2:</h2>
+        <p>Ao concluir o Bootcamp, qual será o salário médio de uma graduada?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q22" value="a" onchange="showAlert(this)"> a) +980 USD
+          </label>
+          <label>
+            <input type="radio" name="q22" value="b" onchange="showAlert(this)"> b) 500 USD
+          </label>
+          <label>
+            <input type="radio" name="q22" value="c" onchange="showAlert(this)"> c) +1,000 USD
+          </label>
+        </div>
+        <div class="feedback" id="q22-feedback"></div>
+      </div>
+  
+      <div class="question">
+        <h2>Pergunta 3:</h2>
+        <p>Atualmente, qual é o número de empresas contratantes na Laboratória?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q32" value="a" onchange="showAlert(this)"> a) 100
+          </label>
+          <label>
+            <input type="radio" name="q32" value="b" onchange="showAlert(this)"> b) 500
+          </label>
+          <label>
+            <input type="radio" name="q32" value="c" onchange="showAlert(this)"> c) +1100
+          </label>
+        </div>
+        <div class="feedback" id="q32-feedback"></div>
+      </div>
+  
+      <nav>
+        <button class="submit-btn" onclick="checkAnswers2()">Enviar Respostas</button>
+        <div class="result" id="result"></div>
+        <button class="play-btn" onclick="playAgain()">Jogar novamente</button>
+      </nav>
+    </main>
+    <script src="script.js"></script>
+  
+  </body>
+</html>
