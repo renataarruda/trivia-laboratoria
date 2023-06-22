@@ -21,7 +21,7 @@ No início, pensamos em começar pela tela de boas-vindas. No entanto, percebemo
 
 Em um primeiro momento, fizemos um quiz simples sobre questões geográficas utilizando [```radio buttons.```](https://materialpublic.imd.ufrn.br/curso/disciplina/3/10/3/13)
 
-Implementamos o código, adicionando para que fosse informado na tela as opções corretas e as erradas, além da quantidade de acertos, usando ```document.querySelector()```, ```getElementById()``` e ```.innerHTML```.
+Implementamos o código, adicionando para que fosse informado na tela as opções corretas e as erradas, além da quantidade de acertos, usando ```document.querySelector()```, ```getElementById()``` e ```innerHTML```.
 
 ### Segunda tela
 
@@ -46,5 +46,5 @@ Assim, percebemos a necessidade de mudar o tema do nosso quiz e decidimos criar 
 
 Além disso, implementamos o projeto incluindo um timer na página de cada quiz, utilizando ```setInterval()```, ```clearInterval()``` e ```textContent```.
 
-<div align="center">
-<img src="https://github.com/renataarruda/trivia-laboratoria/assets/91355221/8e96b67b-7acb-43ba-95ff-000636b0fcf2" /></div>
+[screen-capture.webm](https://github.com/renataarruda/trivia-laboratoria/assets/91355221/65fcfc56-62c1-4fea-823f-b0f8836fa40c)
+
