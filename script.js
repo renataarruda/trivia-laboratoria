@@ -62,33 +62,32 @@ function checkAnswers1() {
       window.location.href = "index.html"
   }
   
-  
   // Define o tempo inicial em segundos
-  let tempoRestante = 30;
+  let timeLeft = 30;
   
   // Função para exibir a contagem regressiva
-  function exibirContagemRegressiva() {
-    const contadorElemento = document.getElementById("contador");
+  function showCountdown() {
+    const elementTimer = document.getElementById("timer");
     
     // Atualiza o elemento HTML com a contagem regressiva
-    contadorElemento.textContent = tempoRestante;
+    elementTimer.textContent = timeLeft;
     
     // Verifica se o tempo chegou a zero
-    if (tempoRestante === 0) {
-      clearInterval(intervalo);
+    if (timeLeft === 0) {
+      clearInterval(interval);
       // Executa alguma ação quando a contagem regressiva terminar
-      contadorElemento.textContent = "Tempo esgotado!";
+      elementTimer.textContent = "Tempo esgotado!";
     } else {
       // Decrementa o tempo restante
-      tempoRestante--;
+      timeLeft--;
     }
   }
   
   // Chama a função para exibir a contagem regressiva inicialmente
-  exibirContagemRegressiva();
+  showCountdown();
   
   // Atualiza a contagem regressiva a cada segundo
-  const intervalo = setInterval(exibirContagemRegressiva, 1000);
+  const interval = setInterval(showCountdown, 1000);
   
   
   function checkAnswers2() {
