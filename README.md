@@ -45,3 +45,6 @@ Assim, percebemos a necessidade de mudar o tema do nosso quiz e decidimos criar 
 ```Mulheres na Tecnologia``` e ```Bootcamp Laboratória```, com dados e curiosidades.
 
 Além disso, implementamos o projeto incluindo um timer na página de cada quiz, utilizando ```setInterval()```, ```clearInterval()``` e ```textContent```.
+
+<div align="center">
+<img src="https://github.com/renataarruda/trivia-laboratoria/assets/91355221/8e96b67b-7acb-43ba-95ff-000636b0fcf2" /></div>
