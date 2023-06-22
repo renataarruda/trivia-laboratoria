@@ -1,6 +1,6 @@
 # Trivia (Quiz game)
 
-Projeto de quiz simples, desenvolvido do zero em HTML5, CSS3 e Javascript vanilla durante a semana de pré-admissão do bootcamp Laboratória. Co-autora: Bianca Bezerra.
+Projeto de quiz simples, desenvolvido em HTML5, CSS3 e Javascript vanilla para a semana de pré-admissão do bootcamp Laboratória. Co-autora: Bianca Bezerra.
 
 ## Protótipo
 
@@ -17,15 +17,15 @@ Imaginamos duas versões: com uma e com duas opções de tema, a serem seleciona
 
 ## Desenvolvimento
 
-Inicialmente, houve a ideia de começarmos pela tela de boas-vindas. Porém, percebemos que este caminho não seria o ideal e entendemos que haveria mais valor na entrega do quiz funcionando em primeiro lugar. 
+No início, pensamos em começar pela tela de boas-vindas. No entanto, percebemos que este caminho não seria o ideal e entendemos que haveria mais valor na entrega do quiz funcionando em primeiro lugar. 
 
-Implementamos o código adicionando para que fosse informado na tela quando as opções estivessem corretas e quando estivessem erradas. 
+Em um primeiro momento, fizemos um quiz simples sobre questões geográficas utilizando [```radio buttons.```](https://materialpublic.imd.ufrn.br/curso/disciplina/3/10/3/13)
 
-Em um primeiro momento, fizemos um quiz sobre questões geográficas.
+Implementamos o código, adicionando para que fosse informado na tela as opções corretas e as erradas, além da quantidade de acertos, usando ```document.querySelector()```, ```getElementById()``` e ```.innerHTML```.
 
 ### Segunda tela
 
-Com o quiz pronto, passamos para a tela de boas-vindas. Desenvolvemos uma tela simples, com input que solicita o nome da usuária e a cumprimenta depois que esta clica no botão ```Enviar```.
+Com o quiz pronto, passamos para a tela de boas-vindas. Desenvolvemos uma tela simples, com ```input``` que solicita o nome da usuária e a cumprimenta após clicar no botão ```Enviar```.
 
 Também foi criado o botão ```Jogar```, que navega para a tela do quiz. 
 
@@ -39,11 +39,9 @@ Por fim, estilizamos os botões com as cores presente no logo. Para isso, utiliz
 
 Com o projeto quase pronto, modificamos a tela de boas-vindas. Agora, ela inclui dois botões, para que a usuária possa escolher a opção de quiz desejada.
 
-Após explorarmos algumas opções de implementação, e recebermos orientações da mentora, optamos por manter a mesma lógica do código anterior, apenas criando uma página de ```categoria2.html``` para incluir o novo quiz.
+Após explorarmos algumas opções de implementação, e recebermos orientações da mentora, optamos por manter a mesma lógica do código anterior, apenas criando uma terceira página para incluir o novo quiz.
 
 Assim, percebemos a necessidade de mudar o tema do nosso quiz e decidimos criar as categorias 
 ```Mulheres na Tecnologia``` e ```Bootcamp Laboratória```, com dados e curiosidades.
 
-Além disso, implementamos o projeto incluindo um timer na página de cada quiz.
-
-Utilizamos as dicas [deste artigo](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8) para a edição da documentação.
+Além disso, implementamos o projeto incluindo um timer na página de cada quiz, utilizando ```setInterval()```, ```clearInterval()``` e ```textContent```.
