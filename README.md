@@ -46,5 +46,8 @@ Assim, percebemos a necessidade de mudar o tema do nosso quiz e decidimos criar 
 
 Além disso, implementamos o projeto incluindo um timer na página de cada quiz, utilizando ```setInterval()```, ```clearInterval()``` e ```textContent```.
 
+### Edit
+O HTML foi editado para cumprir com os padrões semânticos do HTML5. Além disso, alterei a função ```welcomeMessage()``` para tornar o campo de ```nome``` obrigatório, enviando um alerta quando não for preenchido.
+
 [screen-capture.webm](https://github.com/renataarruda/trivia-laboratoria/assets/91355221/65fcfc56-62c1-4fea-823f-b0f8836fa40c)
 
