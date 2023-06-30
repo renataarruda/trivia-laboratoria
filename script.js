@@ -47,7 +47,11 @@ function checkAnswers1() {
   
   function welcomeMessage() {
     var name = document.getElementById("nameInput").value;
-    document.getElementById("showName").textContent = "Olá, " + name + "!";
+    if (name === "") {
+      alert("Por favor, digite seu nome.");
+    }else{
+      document.getElementById("showName").textContent = "Olá, " + name + "!";
+    }
   }
   
   function question1() {
