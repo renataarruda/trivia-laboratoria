@@ -7,23 +7,25 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <header>
-    <img src="assets/logo.jpg" alt="game_logo" class="logo" />
+    <img src="assets/logo.jpg" alt="Logo do quiz" class="logo" />
     <h1>Vamos Jogar?</h1>
   </header>
   <body>
     <main>
-      <form class="input-name">
-        <label for="name" class="input">Digite seu nome:</label>
-        <input type="text" id="nameInput" required />
-      </form>
-      <button class="welcome-btn" onclick="welcomeMessage()">Enviar</button>
-      <p id="showName"></p>
+      <section>
+        <form method="GET" action="" class="fName">
+          <label for="name" class="input">Digite seu nome:</label>
+          <input type="text" name="name" id="nameInput" />
+        </form>
+        <button class="welcome-btn" onclick="welcomeMessage()">Enviar</button>
+        <p id="showName"></p>
+      </section>
   
-      <nav>
+      <section>
         <label for="category" class="input-category">Escolha a categoria desejada:</label>
         <button class="category1-btn" onclick="question1()">Mulheres na Tecnologia</button>
         <button class="category2-btn" onclick="question2()" onclick="startTimer()">Bootcamp Laboratória</button>
-      </nav>
+      </section>
     </main>
   
     <script src="script.js"></script>
